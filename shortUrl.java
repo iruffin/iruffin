@@ -18,11 +18,11 @@ public class shortUrl {
    public char[] alphaNumArray = alphaNum.toCharArray();
    public char[] array = new char[6];
    
-   ////Constructors////
+   ////CONSTRUCTORS////
    
    Random r = new Random();
    
-   //Getters
+   ////GETTERS////
    
    //Returns the value of URL
    public String getUrl () {
@@ -34,7 +34,7 @@ public class shortUrl {
       return shortUrl;
    }  
    
-   ////Setters////
+   ////SETTERS////
    
    //Sets the url 
    public void setUrl (String url) {
